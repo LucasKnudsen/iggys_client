@@ -1,10 +1,15 @@
 import './App.css';
+import React from 'react'
+import Home from './views/Home'
+import Profile from './views/Profile'
 
-function App() {
+const App = () => {
   return (
     <>
+      <Home />
+      <Profile />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
