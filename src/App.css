@@ -1,10 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Playfair Display', serif;
 }
+
+h2 {
+  font-family: 'Playfair Display', serif!important;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
 
 .main-container {
   width: 50%;
+  float: left;
+  border-right: black solid 1px;
+  min-height: 100vh;
 }
 
 /* Hero Section */
@@ -16,12 +27,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  color:rgb(235, 233, 233);
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
 }
 
 #hero h1 {
   font-size: 50px;
+  font-family: 'Playfair Display', serif!important;
 }
 
 #hero h4 {
-  font-size: 25px
+  font-size: 25px;
 }

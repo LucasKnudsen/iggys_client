@@ -1,12 +1,15 @@
 import React from 'react'
-import { Container } from 'semantic-ui-react'
 import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
+import MainBox1 from '../components/MainBox1'
 
 const Home = () => {
   return (
-    <Container className="main-container">
+    <div className="main-container">
       <Hero />
-    </Container>
+      <Navbar />
+      <MainBox1 />
+    </div>
   )
 }
 
