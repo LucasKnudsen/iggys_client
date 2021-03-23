@@ -5,7 +5,7 @@ import MainBox1 from '../components/MainBox1'
 
 const Home = () => {
   return (
-    <div className="main-container">
+    <div className="main-container home">
       <Hero />
       <Navbar />
       <MainBox1 />

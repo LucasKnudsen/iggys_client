@@ -1,0 +1,10 @@
+{
+  "data": {
+    "email": "user@gmail.com",
+    "uid": "user@gmail.com",
+    "id": 1,
+    "provider": "email",
+    "allow_password_change": false,
+    "name": "Lucas Knudsen"
+  }
+}
