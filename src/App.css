@@ -18,7 +18,7 @@ font-family: 'Raleway', sans-serif; */
 
 .home {
   float: left;
-  border-right: black solid 1px;
+  border-right: rgba(0,0,0,0.5) solid 1px;
 }
 
 .profile {

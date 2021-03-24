@@ -4,6 +4,7 @@ import Connect from '../components/Connect'
 import LogIn from '../components/LogIn'
 import MyProfile from '../components/MyProfile'
 import { authValidation } from '../modules/authenticationServices'
+import { motion } from 'framer-motion'
 
 const Profile = () => {
   const { authenticated } = useSelector(state => state)
@@ -13,7 +14,7 @@ const Profile = () => {
   }, [])
 
   return (
-    <div className="main-container profile">
+    <motion.div className="main-container profile">
       {authenticated ? (
         <div className="profile-page">
           <MyProfile />
@@ -25,7 +26,7 @@ const Profile = () => {
           </div>
         )
       }
-    </div >
+    </motion.div >
   )
 }
 
