@@ -1,12 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from 'semantic-ui-react'
+import Chat from './Chat'
+import MyProfile from '../components/MyProfile'
+
+// https://www.youtube.com/watch?v=E3NHd-PkLrQ&ab_channel=TraversyMedia
 
 const Connect = () => {
-  // https://www.youtube.com/watch?v=E3NHd-PkLrQ&ab_channel=TraversyMedia
+  const [connected, setConnected] = useState(false)
   return (
-    <Button color="brown">
-      Connect
-    </Button>
+    <>
+      {connected ? (
+        <Chat setConnected={setConnected} />
+      ) : (
+        <div className="profile-page">
+            <MyProfile />
+            <Button onClick={() => setConnected(true)} color="brown">
+              Connect
+          </Button>
+          </div>
+        )
+      }
+    </>
+
   )
 }
 

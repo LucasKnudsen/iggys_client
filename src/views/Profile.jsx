@@ -16,10 +16,7 @@ const Profile = () => {
   return (
     <motion.div className="main-container profile">
       {authenticated ? (
-        <div className="profile-page">
-          <MyProfile />
-          <Connect />
-        </div>
+        <Connect />
       ) : (
           <div className="login-container">
             <LogIn />
