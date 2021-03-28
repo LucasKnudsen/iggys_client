@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import Connect from '../components/Connect'
 import LogIn from '../components/LogIn'
-import MyProfile from '../components/MyProfile'
 import { authValidation } from '../modules/authenticationServices'
 import { motion } from 'framer-motion'
 

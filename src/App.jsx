@@ -7,7 +7,7 @@ import IntroAnimation from './views/IntroAnimation';
 const App = () => {
   return (
     <>
-      {/* <IntroAnimation /> */}
+      <IntroAnimation />
       <Home />
       <Profile />
     </>
